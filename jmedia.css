@@ -63,7 +63,7 @@
   }
 
     .btneducation {
-    background: #58a6ff;
+    background: #f5c542;
     color: #0d1117;
     padding: 12px 28px;
     border-radius: 8px;
@@ -81,3 +81,4 @@
     50% { transform: scale(1.08); }
     100% { transform: scale(1); }
   }
+
