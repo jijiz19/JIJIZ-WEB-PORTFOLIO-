@@ -1,0 +1,216 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jizryl S. Arboleda | Resume</title>
+  <style>
+    :root {
+      --yellow: #f5c542;
+      --black: #0f0f0f;
+      --dark: #1a1a1a;
+      --gray: #bfbfbf;
+      --white: #ffffff;
+    }* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--black);
+  color: var(--white);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* HEADER */
+.header {
+  background: var(--yellow);
+  color: #000;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 30px;
+}
+
+/* LEFT PANEL */
+.left {
+  background: var(--dark);
+  padding: 25px;
+}
+
+.photo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.photo img {
+  width: 100%;
+  max-width: 260px;
+  border: 6px solid var(--yellow);
+}
+
+h2 {
+  color: var(--yellow);
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.summary {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--gray);
+  margin-bottom: 25px;
+}
+
+/* SKILLS */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.skill {
+  background: #000;
+  border: 1px solid var(--yellow);
+  padding: 12px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* RIGHT PANEL */
+.right {
+  padding: 25px;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: var(--gray);
+}
+
+/* FOOTER */
+.footer {
+  background: var(--yellow);
+  color: #000;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+  </style>
+</head>
+<body>
+  <div class="container"><!-- HEADER -->
+<div class="header">
+  <h1>Jizryl S. Arboleda</h1>
+  <p>Aspiring MIS Officer & Data Analyst</p>
+</div>
+
+<!-- MAIN GRID -->
+<div class="grid">
+
+  <!-- LEFT -->
+  <div class="left">
+    <div class="photo">
+      <!-- Replace image path -->
+      <img src="profile.jpg" alt="Profile Photo" />
+    </div>
+
+    <h2>Professional Summary</h2>
+    <p class="summary">
+      Highly motivated individual with a passion for transforming data into business insights and optimizations. Seeking MIS opportunities to apply skills in technology, analytics, and problem-solving.
+    </p>
+
+    <h2>Key Skills & Expertise</h2>
+    <div class="skills">
+      <div class="skill">Advanced Excel</div>
+      <div class="skill">SQL</div>
+      <div class="skill">Data Analysis</div>
+      <div class="skill">Power BI</div>
+      <div class="skill">Python</div>
+      <div class="skill">HTML / CSS</div>
+      <div class="skill">SAP</div>
+      <div class="skill">Data Visualization</div>
+      <div class="skill">Inventory Reconciliation</div>
+    </div>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="right">
+    <div class="section">
+      <h2>Career Highlights & Achievements</h2>
+      <ul>
+        <li>Optimized inventory tracking system, reducing discrepancies by 15%</li>
+        <li>Developed interactive sales dashboards improving reporting efficiency</li>
+        <li>Managed successful trade dashboard campaigns increasing product visibility</li>
+        <li>Implemented new data validation procedures improving data accuracy</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education & Certifications</h2>
+      <ul>
+        <li>Bachelor of Science in Information Systems – University Name</li>
+        <li>Data Analytics Professional Certificate – Institution Name</li>
+        <li>SAP Certified Associate – Module</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div>Email: arboledajizryl@gmail.com</div>
+  <div>Phone: 0970-512-3490</div>
+  <div>Location: Capiz, Philippines</div>
+</div>
+
+  </div>  <!-- JavaScript (Optional) -->  <script>
+    // Example JS: simple console message
+    console.log("Resume loaded successfully");
+  </script></body>
+</html>
